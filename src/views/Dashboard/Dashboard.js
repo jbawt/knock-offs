@@ -49,13 +49,13 @@ export default function Dashboard() {
               <CardIcon color="warning">
                 <Icon>content_copy</Icon>
               </CardIcon>
-              <p className={classes.cardCategory}>Home</p>
-              <h3 className={classes.cardTitle}>Home Team</h3>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
               <CardIcon color="success">
                 <Icon>content_copy</Icon>
               </CardIcon>
-              <p className={classes.cardCategory}>Away</p>
-              <h3 className={classes.cardTitle}>Away Team</h3>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
