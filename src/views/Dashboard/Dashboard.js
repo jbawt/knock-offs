@@ -5,12 +5,10 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Icon from "@material-ui/core/Icon";
 // @material-ui/icons
-import Store from "@material-ui/icons/Store";
 import DateRange from "@material-ui/icons/DateRange";
 // import Update from "@material-ui/icons/Update";
 // import ArrowUpward from "@material-ui/icons/ArrowUpward";
 // import AccessTime from "@material-ui/icons/AccessTime";
-import Accessibility from "@material-ui/icons/Accessibility";
 // import BugReport from "@material-ui/icons/BugReport";
 // import Code from "@material-ui/icons/Code";
 // import Cloud from "@material-ui/icons/Cloud";
@@ -60,62 +58,193 @@ export default function Dashboard() {
             <CardFooter stats>
               <div className={classes.stats}>
                 <DateRange />
-                Time:
+                Time: 6:30pm
               </div>
               <div className={classes.stats}>
                 <DateRange />
-                Diamond:
+                Diamond: 1
               </div>
             </CardFooter>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="success" stats icon>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
               <CardIcon color="success">
-                <Store />
+                <Icon>content_copy</Icon>
               </CardIcon>
-              <p className={classes.cardCategory}>Revenue</p>
-              <h3 className={classes.cardTitle}>$34,245</h3>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
                 <DateRange />
-                Time:
+                Time: 6:30pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 2
               </div>
             </CardFooter>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="danger" stats icon>
-              <CardIcon color="danger">
-                <Icon>info_outline</Icon>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
               </CardIcon>
-              <p className={classes.cardCategory}>Fixed Issues</p>
-              <h3 className={classes.cardTitle}>75</h3>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
                 <DateRange />
-                Time:
+                Time: 6:30pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 3
               </div>
             </CardFooter>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="info" stats icon>
-              <CardIcon color="info">
-                <Accessibility />
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
               </CardIcon>
-              <p className={classes.cardCategory}>Followers</p>
-              <h3 className={classes.cardTitle}>+245</h3>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
                 <DateRange />
-                Time:
+                Time: 6:30pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 4
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={6} md={3}>
+          <Card>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
+            </CardHeader>
+            <CardFooter stats>
+              <div className={classes.stats}>
+                <DateRange />
+                Time: 8:00pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 1
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={6} md={3}>
+          <Card>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
+            </CardHeader>
+            <CardFooter stats>
+              <div className={classes.stats}>
+                <DateRange />
+                Time: 8:00pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 2
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={6} md={3}>
+          <Card>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
+            </CardHeader>
+            <CardFooter stats>
+              <div className={classes.stats}>
+                <DateRange />
+                Time: 8:00pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 3
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={6} md={3}>
+          <Card>
+            <CardHeader color="warning" stats icon>
+              <CardIcon color="warning">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Home</p>
+              <h3 className={classes.cardTitle}>Home Team</h3>
+              <CardIcon color="success">
+                <Icon>content_copy</Icon>
+              </CardIcon>
+              <p className={classes.cardCategory}>Away</p>
+              <h3 className={classes.cardTitle}>Away Team</h3>
+            </CardHeader>
+            <CardFooter stats>
+              <div className={classes.stats}>
+                <DateRange />
+                Time: 8:00pm
+              </div>
+              <div className={classes.stats}>
+                <DateRange />
+                Diamond: 4
               </div>
             </CardFooter>
           </Card>

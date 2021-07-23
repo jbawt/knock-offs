@@ -19,19 +19,17 @@
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
-import BubbleChart from "@material-ui/icons/BubbleChart";
-import LocationOn from "@material-ui/icons/LocationOn";
+// import BubbleChart from "@material-ui/icons/BubbleChart";
+// import LocationOn from "@material-ui/icons/LocationOn";
 import Notifications from "@material-ui/icons/Notifications";
-import Unarchive from "@material-ui/icons/Unarchive";
 // core components/views for Admin layout
 import DashboardPage from "views/Dashboard/Dashboard.js";
 import UserProfile from "views/UserProfile/UserProfile.js";
 import Standings from "views/Standings/Standings.js";
-import Typography from "views/Typography/Typography.js";
-import Icons from "views/Icons/Icons.js";
-import Maps from "views/Maps/Maps.js";
+import LeaguePlayers from "views/LeaguePlayers/LeaguePlayers.js";
+import Schedule from "views/Schedule/Schedule.js";
+// import Maps from "views/Maps/Maps.js";
 import NotificationsPage from "views/Notifications/Notifications.js";
-import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.js";
 // core components/views for RTL layout
 
 const dashboardRoutes = [
@@ -52,43 +50,36 @@ const dashboardRoutes = [
   {
     path: "/standings",
     name: "Standings",
-    icon: "content_paste",
+    icon: LibraryBooks,
     component: Standings,
     layout: "/admin",
   },
   {
-    path: "/typography",
-    name: "Typography",
-    icon: LibraryBooks,
-    component: Typography,
+    path: "/Schedule",
+    name: "Schedule",
+    icon: "content_paste",
+    component: Schedule,
     layout: "/admin",
   },
   {
-    path: "/icons",
-    name: "Icons",
-    icon: BubbleChart,
-    component: Icons,
+    path: "/leagueplayers",
+    name: "League Players",
+    icon: Person,
+    component: LeaguePlayers,
     layout: "/admin",
   },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: LocationOn,
-    component: Maps,
-    layout: "/admin",
-  },
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   icon: LocationOn,
+  //   component: Maps,
+  //   layout: "/admin",
+  // },
   {
     path: "/notifications",
     name: "Notifications",
     icon: Notifications,
     component: NotificationsPage,
-    layout: "/admin",
-  },
-  {
-    path: "/upgrade-to-pro",
-    name: "Upgrade To PRO",
-    icon: Unarchive,
-    component: UpgradeToPro,
     layout: "/admin",
   },
 ];

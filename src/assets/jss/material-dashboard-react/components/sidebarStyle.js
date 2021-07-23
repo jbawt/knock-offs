@@ -64,6 +64,11 @@ const sidebarStyle = (theme) => ({
     position: "relative",
     padding: "15px 15px",
     zIndex: "4",
+    textTransform: "uppercase",
+    backgroundColor: "transparent",
+    color: whiteColor,
+    fontSize: "18px",
+    fontWeight: "400",
     "&:after": {
       content: '""',
       position: "absolute",
